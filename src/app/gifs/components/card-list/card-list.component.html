@@ -1,0 +1,12 @@
+<!-- <ul *ngFor="let characterList of lis; let i = index">
+  <li>{{lis[i]}} Lista</li>
+
+</ul> -->
+
+<div class="row">
+
+  <gifs-card *ngFor="let gif of gifs" [gif]="gif" class="col-md-3 col-sm-6">
+
+  </gifs-card>
+
+</div>
